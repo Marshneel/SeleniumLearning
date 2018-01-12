@@ -1,0 +1,12 @@
+
+<suite name="Ecommerce" >
+
+
+  <test name="SanityTests">
+    <classes>
+     
+      <class name="Sample.Class1"/>
+      <class name="Sample.Class2"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,13 @@
+
+<suite name="Suite" >
+  <test name="Test">
+  <groups>
+  <run>
+  <include name = "sanity"/>
+  </run>
+  </groups>
+    <classes>
+      <class name="Sample.Class3"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

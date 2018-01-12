@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="44694" started-at="2017-07-20T14:41:58Z" finished-at="2017-07-20T14:42:42Z">
+    <groups>
+    </groups>
+    <test name="EdgeTests" duration-ms="18260" started-at="2017-07-20T14:41:58Z" finished-at="2017-07-20T14:42:16Z">
+      <class name="advanced_selenium.MultiBrowserParallelTesting">
+        <test-method status="PASS" signature="verifyPageTitle(java.lang.String)[pri:0, instance:advanced_selenium.MultiBrowserParallelTesting@2a2d45ba]" name="verifyPageTitle" duration-ms="18253" started-at="2017-07-20T15:41:58Z" finished-at="2017-07-20T15:42:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageTitle -->
+      </class> <!-- advanced_selenium.MultiBrowserParallelTesting -->
+    </test> <!-- EdgeTests -->
+    <test name="IETests" duration-ms="27045" started-at="2017-07-20T14:41:58Z" finished-at="2017-07-20T14:42:25Z">
+      <class name="advanced_selenium.MultiBrowserParallelTesting">
+        <test-method status="PASS" signature="verifyPageTitle(java.lang.String)[pri:0, instance:advanced_selenium.MultiBrowserParallelTesting@5419f379]" name="verifyPageTitle" duration-ms="27027" started-at="2017-07-20T15:41:58Z" finished-at="2017-07-20T15:42:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageTitle -->
+      </class> <!-- advanced_selenium.MultiBrowserParallelTesting -->
+    </test> <!-- IETests -->
+    <test name="ChromeTests" duration-ms="38531" started-at="2017-07-20T14:41:58Z" finished-at="2017-07-20T14:42:36Z">
+      <class name="advanced_selenium.MultiBrowserParallelTesting">
+        <test-method status="PASS" signature="verifyPageTitle(java.lang.String)[pri:0, instance:advanced_selenium.MultiBrowserParallelTesting@51081592]" name="verifyPageTitle" duration-ms="38502" started-at="2017-07-20T15:41:58Z" finished-at="2017-07-20T15:42:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageTitle -->
+      </class> <!-- advanced_selenium.MultiBrowserParallelTesting -->
+    </test> <!-- ChromeTests -->
+    <test name="FirefoxTests" duration-ms="44694" started-at="2017-07-20T14:41:58Z" finished-at="2017-07-20T14:42:42Z">
+      <class name="advanced_selenium.MultiBrowserParallelTesting">
+        <test-method status="PASS" signature="verifyPageTitle(java.lang.String)[pri:0, instance:advanced_selenium.MultiBrowserParallelTesting@4de8b406]" name="verifyPageTitle" duration-ms="44657" started-at="2017-07-20T15:41:58Z" finished-at="2017-07-20T15:42:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageTitle -->
+      </class> <!-- advanced_selenium.MultiBrowserParallelTesting -->
+    </test> <!-- FirefoxTests -->
+  </suite> <!-- Suite -->
+</testng-results>
